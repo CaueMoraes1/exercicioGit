@@ -1,10 +1,11 @@
+
 y = (int(input()))
 num = (int(input()))
 
-j = num
+i = num
 soma = 0
-while j <= num + y: 
-    soma += j
-    j += 1
+while i <= num + y: 
+    soma += i
+    i += 1
 
 print(soma)
